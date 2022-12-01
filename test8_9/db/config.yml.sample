@@ -1,0 +1,11 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: localhost
+  user: your_pg_user
+  password: your_pg_password
+
+development:
+  <<: *default
+  database: test8_dev

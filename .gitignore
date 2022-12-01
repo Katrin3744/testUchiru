@@ -1,0 +1,3 @@
+.idea
+./test8_9/db/config.yml
+*.lock
